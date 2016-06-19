@@ -1,4 +1,7 @@
 package leetcode;
+
+import utils.TreeNode;
+
 public class BinaryTreeLongestConsecutiveSequence {
 	public int longestConsecutive(TreeNode root) {
 		if (root == null)

@@ -1,4 +1,7 @@
 package leetcode;
+
+import utils.TreeNode;
+
 public class Symmetric_Tree {
 	public boolean isSymmetric(TreeNode root) {
 		if (root == null)

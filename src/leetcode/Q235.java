@@ -1,4 +1,7 @@
 package leetcode;
+
+import utils.TreeNode;
+
 public class Q235 {
 	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 		if (p.val < root.val && q.val > root.val) {

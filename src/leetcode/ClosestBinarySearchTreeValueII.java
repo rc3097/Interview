@@ -2,6 +2,8 @@ package leetcode;
 import java.util.LinkedList;
 import java.util.List;
 
+import utils.TreeNode;
+
 public class ClosestBinarySearchTreeValueII {
 	public List<Integer> closestKValues(TreeNode root, double target, int k) {
 		LinkedList<Integer> results = new LinkedList<Integer>();

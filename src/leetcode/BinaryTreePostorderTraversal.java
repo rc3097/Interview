@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+import utils.TreeNode;
+
 public class BinaryTreePostorderTraversal {
 	public List<Integer> postorderTraversal(TreeNode root) {
 		ArrayList<Integer> result = new ArrayList<Integer>();

@@ -1,5 +1,7 @@
 package leetcode;
 
+import utils.TreeNode;
+
 public class Q230 {
 	int element;
 	int count=0;

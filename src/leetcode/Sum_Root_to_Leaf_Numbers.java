@@ -1,4 +1,7 @@
 package leetcode;
+
+import utils.TreeNode;
+
 public class Sum_Root_to_Leaf_Numbers {
 	int total;
 	public int sumNumbers(TreeNode root) {

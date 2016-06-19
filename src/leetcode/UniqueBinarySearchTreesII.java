@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import utils.TreeNode;
+
 
 public class UniqueBinarySearchTreesII {
     public List<TreeNode> generateTrees(int n) {

@@ -1,4 +1,7 @@
 package leetcode;
+
+import utils.TreeNode;
+
 public class Balanced_Binary_Tree {
 
 	private boolean result = true;

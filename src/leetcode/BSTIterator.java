@@ -1,6 +1,8 @@
 package leetcode;
 import java.util.Stack;
 
+import utils.TreeNode;
+
 public class BSTIterator {
 	private Stack<TreeNode> stacks;
 

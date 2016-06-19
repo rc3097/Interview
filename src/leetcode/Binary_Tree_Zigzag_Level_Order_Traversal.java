@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import utils.TreeNode;
+
 public class Binary_Tree_Zigzag_Level_Order_Traversal {
 	int head = 0;
 	int tail = 0;

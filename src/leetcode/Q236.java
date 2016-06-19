@@ -3,6 +3,8 @@ import java.util.ArrayList;
 
 import javax.print.attribute.Size2DSyntax;
 
+import utils.TreeNode;
+
 public class Q236 {
 
 	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {

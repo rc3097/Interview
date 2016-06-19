@@ -1,5 +1,7 @@
 package leetcode;
 
+import utils.TreeNode;
+
 public class ClosestBinarySearchTreeValue {
 	public int closetValue(TreeNode root, double target) {
 		if (root==null) {

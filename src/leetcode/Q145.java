@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+import utils.TreeNode;
+
 public class Q145 {
 	public List<Integer> postorderTraversal(TreeNode root) {	
 		Stack<TreeNode> tStack = new Stack<TreeNode>();

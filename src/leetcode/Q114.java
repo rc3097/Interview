@@ -1,4 +1,7 @@
 package leetcode;
+
+import utils.TreeNode;
+
 public class Q114 {
 	public void flatten(TreeNode root) {
 		root = reorder(root);

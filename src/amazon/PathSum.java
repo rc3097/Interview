@@ -6,8 +6,8 @@ import java.util.List;
 import javax.lang.model.type.NullType;
 import javax.swing.ListModel;
 
+import utils.TreeNode;
 import leetcode.ListNode;
-import leetcode.TreeNode;
 
 
 /*

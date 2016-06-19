@@ -2,6 +2,8 @@ package leetcode;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
+import utils.TreeNode;
+
 public class Q105 {
 	public TreeNode buildTree(int[] preorder, int[] inorder) {
 		TreeNode rootNode = null;

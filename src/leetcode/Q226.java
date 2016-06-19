@@ -1,4 +1,7 @@
 package leetcode;
+
+import utils.TreeNode;
+
 public class Q226 {
 	public TreeNode invertTree(TreeNode root) {
 		if (root == null)

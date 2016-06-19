@@ -2,6 +2,8 @@ package leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
+import utils.TreeNode;
+
 public class Q113 {
 	int sum;
 	List<List<Integer>> results = new ArrayList<List<Integer>>();

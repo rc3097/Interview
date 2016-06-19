@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+import utils.TreeNode;
+
 public class Q94 {
 	public List<Integer> inorderTraversal(TreeNode root) {
 		List<Integer> results = new ArrayList<Integer>();
