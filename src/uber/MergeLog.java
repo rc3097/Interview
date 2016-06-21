@@ -12,14 +12,14 @@ import sun.util.logging.resources.logging;
  * http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=192016&pid=2471458&page=1&extra=page%3D1%26filter%3Dsortid%26sortid%3D311#pid2471458
  * 这题描述的不太清楚
  * log1. 
- * timestamp : num of driver
+ * timestamp : num of driver in two city
  * 1:00       5
  * 2:15       7
  * 3:00      20.
 
  * log2
  * 1:05     3
- * 2: 20    8
+ * 2:20    8
  * 3:00     5.
 
  * combined
