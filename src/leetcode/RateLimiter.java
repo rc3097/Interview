@@ -12,7 +12,7 @@ public class RateLimiter {
 
 	public boolean makeRequest() {
 		long now = System.currentTimeMillis();
-		tokens += (now - timestamp) / 1000 * RPS;
+		tokens += (now - timestamp) *RPS / 1000 ;
 		if (tokens > capicity)
 			tokens = capicity;
 		timestamp = now;
