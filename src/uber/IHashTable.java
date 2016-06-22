@@ -1,7 +1,10 @@
 package uber;
 
-import leetcode.Valid_Anagram;
 
+/*
+ * http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=190734&page=1#pid2476580
+ * 
+ */
 public class IHashTable<K, V> {
 	public class HashEntry<K, V> {
 
