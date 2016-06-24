@@ -1,6 +1,10 @@
 package bloomberg;
 
+import java.math.BigInteger;
 import java.util.ArrayList;
+
+
+
 
 /*
  * 第一轮 technical interview： 面试官 一个亚洲人一个白人。  亚洲人上来让design 和implement object。  user input string ,  
@@ -31,6 +35,10 @@ public class StringSplit {
 		return res;
 	}
 	public static void main(String[] args)  {
+		BigInteger a = new BigInteger("123154564564");
+		BigInteger b = new BigInteger("-123154564565");
+		System.out.println(a.add(b));
+		
 		
 	}
 }
