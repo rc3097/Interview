@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class BTreePrinter {
+public final class BTreePrinter {
 	
 	public static void main(String[] args) {
 		BSTree forests= new BSTree();
