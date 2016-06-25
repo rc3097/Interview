@@ -148,6 +148,7 @@ public class BigInteger {
 		System.out.println(q.plus("111111111", "1111")); // 111112222
 		System.out.println(q.plus("-111111111", "1111")); // -111110000
 		System.out.println(q.plus("-111111111", "-1111")); // -111112222
+		System.out.println(q.plus("1000", "-1111"));
 		System.out.println(q.plus("0", "-1111"));
 		System.out.println(q.plus("111111111", "0"));
 		System.out.println(q.substract("111111111", "0"));
