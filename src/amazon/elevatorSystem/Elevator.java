@@ -16,22 +16,24 @@ public class Elevator {
 		maxFloor = 34;
 		minFloor = 0;
 	}
-	
-	
+
 	public int getCurrentFloor() {
 		return currentFloor;
 	}
-	
+
 	public boolean isUp() {
 		return isUp;
 	}
 
 	public void moveToFloor(Integer toFloor) {
-		if (toFloor==null) return;
-		if (currentFloor<toFloor) isUp =  true;
-		else isUp = false;
+		if (toFloor == null)
+			return;
+		if (currentFloor < toFloor)
+			isUp = true;
+		else
+			isUp = false;
 		currentFloor = toFloor;
-		System.out.println("Now it is "+currentFloor+" Floor!");
+		System.out.println("Now it is " + currentFloor + " Floor!");
 	}
 
 	public int getMaxFloor() {
