@@ -18,8 +18,37 @@ public class FamilyTree {
 			this.parents=parents;
 			this.children = children;
 		}
+
+		public boolean equals(Person o1) {
+			return this.id == o1.id;
+		}
 	}
 
-	Person[] members;
+	HashMap<Integer, Person> members = new HashMap();
+
+	public boolean checkFamily(Person o) {
+		if (members.containsKey(o.id)) return true;
+		return false;
+	}
+
+	public boolean isCousin(Person o1, Person o2) {
+		if (o1.equals(o2)) return false;
+		if (isSilbing(o1,o2)) return false;
+		for (Person i:o1.parents) {
+			for (Person  j:o2.parents ) {
+				if (isSilbing(i,j)) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+
+	private boolean isSilbing(Person o1, Person o2) {
+		if (o1.equals(o2)) return false;
+		if (o1.parents[0].equals(o2.parents[0]) && o1.parents[1].equals(o2.parents[1])) {
+			return true;
+		}
+	}
 	
 }
