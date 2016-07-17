@@ -1,3 +1,4 @@
+package bloomberg;
 public class BestTimetoBuyandSellStock {
 	public int maxProfit(int[] prices) {
 		int max = 0;

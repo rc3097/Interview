@@ -1,3 +1,5 @@
+package bloomberg;
+import java.util.*;
 public class WordLadderII {
 	public List<List<String>> findLadders(String beginWord, String endWord, Set<String> wordList) {
 		
@@ -16,7 +18,7 @@ public class WordLadderII {
 			}
 			char[] schr = start.toCharArray();
 
-			for (int i=0; i< schr.length();i++) {
+			for (int i=0; i< schr.length;i++) {
 				char temp = schr[i];
 				for (char c='a'; c<='z'; c++) {
 					if (temp==c) continue;
@@ -41,7 +43,8 @@ public class WordLadderII {
 				}
 				schr[i]=temp;
 			}
-			return wordMap.containsKey(endWord)?wordMap.get(endWord):new ArrayList<List<String>>();
+			
 		}
+		return (List<List<String>>) (wordMap.containsKey(endWord)?wordMap.get(endWord):new ArrayList<List<String>>());
 	}
 }

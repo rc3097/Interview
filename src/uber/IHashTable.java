@@ -7,7 +7,6 @@ package uber;
  */
 public class IHashTable<K, V> {
 	public class HashEntry<K, V> {
-
 		K key;
 		V val;
 		HashEntry next;

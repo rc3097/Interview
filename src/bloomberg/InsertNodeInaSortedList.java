@@ -1,5 +1,8 @@
 
 package  bloomberg;
+
+import leetcode.ListNode;
+
 /*
 * insert node  in a sorted list
 */
@@ -21,6 +24,6 @@ public class InsertNodeInaSortedList {
 		ListNode temp = pre.next;
 		pre.next = numNode;
 		numNode.next = temp;
-		return dummyhead.next();
+		return dummyhead.next;
 	}
 }

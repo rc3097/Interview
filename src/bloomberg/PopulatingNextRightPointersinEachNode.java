@@ -1,3 +1,6 @@
+
+package bloomberg;
+import java.util.*;
 public class PopulatingNextRightPointersinEachNode {
 	public class TreeLinkNode {
 		TreeLinkNode left,right,next;
