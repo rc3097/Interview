@@ -2,6 +2,8 @@ package bloomberg;
 
 import java.util.*;
 
+import utils.TreeNode;
+
 public class MinuSumPath{
 	public int findMin(TreeNode root) {
 		if (root==null) return 0;
