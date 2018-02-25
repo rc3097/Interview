@@ -69,6 +69,11 @@ public class BSTree implements Iterator<TreeNode>{
 	public TreeNode next() {
 		return forests.get(pos++);
 	}
-	
+
+	@Override
+	public void remove() {
+
+	}
+
 
 }

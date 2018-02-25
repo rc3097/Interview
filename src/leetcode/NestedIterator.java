@@ -24,6 +24,11 @@ public class NestedIterator implements Iterator<Integer> {
 		}
 	}
 
+	@Override
+	public void remove() {
+
+	}
+
 	public boolean hasNext() {
 		return stacks.isEmpty();
 	}

@@ -3,18 +3,19 @@ import javax.naming.spi.DirStateFactory.Result;
 
 public class Formulasolver {
 	public double formula(String s, int t) {
-
+		return 0;
 	}
 
 	public String subformula(String s) {
 		if (!s.contains("a")) {
 			String res = String.valueOf(cal_s(s));
 		}
+		return null;
 	}
 
 	private int cal_s(String s) {
 		// TODO Auto-generated method stub
-		return null;
+		return 0;
 	}
 
 	public int[] findsubformula(String s, int start) {

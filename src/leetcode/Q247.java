@@ -13,7 +13,7 @@ public class Q247 {
 		 if (n%2!=0) {
 			 odds=false;
 		 }
-		 
+		 return null;
 	 }
 	 
 	 private void dfs(String result, int index) {

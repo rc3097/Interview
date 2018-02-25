@@ -1,6 +1,5 @@
 package leetcode;
 import java.util.Arrays;
-import java.util.function.IntPredicate;
 
 import utils.TreeNode;
 

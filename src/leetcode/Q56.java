@@ -21,7 +21,7 @@ public class Q56 {
 			Interval newinterval = intervals.get(i);
 			Interval lastinterval = results.get(results.size() - 1);
 			if (newinterval.start <= lastinterval.end) {
-				lastinterval.end = Integer.max(lastinterval.end,
+				lastinterval.end = Math.max(lastinterval.end,
 						newinterval.end);
 			} else {
 				results.add(newinterval);

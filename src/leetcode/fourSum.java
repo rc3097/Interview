@@ -6,7 +6,6 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
-import java.util.function.IntPredicate;
 
 public class fourSum {
 	public List<List<Integer>> fourSum(int[] num, int target) {

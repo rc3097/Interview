@@ -33,7 +33,12 @@ public class Q284 {
 	        return temp;
 	    }
 
-	    public boolean hasNext() {
+		@Override
+		public void remove() {
+
+		}
+
+		public boolean hasNext() {
 	        return integer!=null;
 	    }
 	}
